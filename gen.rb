@@ -6,7 +6,7 @@ def gen(n)
       acumulador += inicial
       inicial = inicial.next
     end
-    print acumulador
+    puts acumulador
   end
   
   n=ARGV[0].to_i
